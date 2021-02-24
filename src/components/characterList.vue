@@ -4,7 +4,7 @@
             <!-- <label for="character-select">Characters List: </label> -->
             <list-item v-for="(character, index) in characters" :character="character" :key="index" >{{character.name}}</list-item>
             <!-- <select name="character-select" id="character-select">
-                <option value="character.name" v-for="(character, index) in characters" :key="index" >{{character.name}}</option>
+                <option value="character" v-for="(character, index) in characters" :key="index" >{{character.name}}</option>
             </select> -->
         </form>
     </div>

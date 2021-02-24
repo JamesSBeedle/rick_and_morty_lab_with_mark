@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Rick and Morty: A Character Sensation</h1>
+    <h1>Rick and Morty: A Character Sensational Selector</h1>
     <div>
       <character-list :characters="characterList"></character-list>
       <character-details :character="selectedCharacter"></character-details>
